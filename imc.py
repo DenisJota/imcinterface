@@ -15,8 +15,8 @@ janela = Tk()
 janela.title("IRSO BPTUR")
 janela.geometry('650x400')
 
-label_peso = Label(janela, text='Peso: ', fg='blue', font='Arial 14 bold')
-label_altura = Label(janela, text='Altura: ', fg='blue', font='Arial 14 bold')
+label_peso = Label(janela, text='Peso: ', fg='black', font='Arial 14 bold')
+label_altura = Label(janela, text='Altura: ', fg='black', font='Arial 14 bold')
 label_peso.grid(row=0, column=0)
 label_altura.grid(row=1, column=0)
 #campo de texto
